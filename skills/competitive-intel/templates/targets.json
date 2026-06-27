@@ -1,0 +1,19 @@
+{
+  "github": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "snapshot": {}
+    }
+  ],
+  "news": [
+    {
+      "url": "https://nousresearch.com/blog",
+      "type": "html",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "last_seen_ids": []
+    }
+  ]
+}
