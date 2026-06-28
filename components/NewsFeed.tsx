@@ -1,18 +1,18 @@
 import type { NewsFinding, DailyFindings } from "@/lib/types"
 
 const SOURCE_COLORS: Record<string, string> = {
-  "openai.com": "bg-blue-50 text-blue-700",
-  "nousresearch.com": "bg-purple-50 text-purple-700",
-  "anthropic.com": "bg-green-50 text-green-700",
+  "openai.com": "bg-blue-500/20 text-blue-300",
+  "nousresearch.com": "bg-purple-500/20 text-purple-300",
+  "anthropic.com": "bg-green-500/20 text-green-300",
 }
 
 function sourceLabel(url: string) {
   try {
     const host = new URL(url).hostname.replace("www.", "")
     const base = host.split(".").slice(-2).join(".")
-    return { label: base, color: SOURCE_COLORS[base] ?? "bg-gray-100 text-gray-600" }
+    return { label: base, color: SOURCE_COLORS[base] ?? "bg-white/10 text-gray-400" }
   } catch {
-    return { label: url, color: "bg-gray-100 text-gray-600" }
+    return { label: url, color: "bg-white/10 text-gray-400" }
   }
 }
 
@@ -28,13 +28,13 @@ export default function NewsFeed({ findings, allFindings }: Props) {
 
   return (
     <div>
-      <h2 className="text-sm font-medium text-gray-700 mb-3">Latest news</h2>
+      <h2 className="text-sm font-medium text-gray-400 mb-3">Latest news</h2>
       {items.length === 0 ? (
-        <div className="bg-white rounded-xl border border-gray-200 p-8 text-center text-sm text-gray-400">
+        <div className="bg-[#111118] rounded-xl border border-white/10 p-8 text-center text-sm text-gray-600">
           No news items yet
         </div>
       ) : (
-        <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100">
+        <div className="bg-[#111118] rounded-xl border border-white/10 divide-y divide-white/5">
           {items.slice(0, 10).map((item) => {
             const { label, color } = sourceLabel(item.url)
             return (
@@ -47,12 +47,12 @@ export default function NewsFeed({ findings, allFindings }: Props) {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-gray-900 hover:text-purple-700 transition-colors line-clamp-1"
+                    className="text-sm text-gray-200 hover:text-purple-400 transition-colors line-clamp-1"
                   >
                     {item.title}
                   </a>
                   {item.date && (
-                    <p className="text-xs text-gray-400 mt-0.5">{item.date.slice(0, 16)}</p>
+                    <p className="text-xs text-gray-600 mt-0.5">{item.date.slice(0, 16)}</p>
                   )}
                 </div>
               </div>

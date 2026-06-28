@@ -5,11 +5,49 @@
       "added": "2026-06-28",
       "last_checked": null,
       "snapshot": {}
+    },
+    {
+      "repo": "openai/openai-python",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "snapshot": {}
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-python",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "snapshot": {}
+    },
+    {
+      "repo": "microsoft/autogen",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "snapshot": {}
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "snapshot": {}
     }
   ],
   "news": [
     {
       "url": "https://nousresearch.com/blog",
+      "type": "html",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "last_seen_ids": []
+    },
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "type": "rss",
+      "added": "2026-06-28",
+      "last_checked": null,
+      "last_seen_ids": []
+    },
+    {
+      "url": "https://www.anthropic.com/news",
       "type": "html",
       "added": "2026-06-28",
       "last_checked": null,

@@ -18,17 +18,17 @@ export default function Home() {
   const totalNewsItems = latest?.news.reduce((s, n) => s + n.newItems.length, 0) ?? 0
 
   return (
-    <main className="min-h-screen bg-gray-50">
-      <header className="bg-white border-b border-gray-200 px-6 py-4">
+    <main className="min-h-screen bg-[#0a0a0f]">
+      <header className="bg-[#111118] border-b border-white/10 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div>
-            <h1 className="text-lg font-medium text-gray-900">Orbita</h1>
+            <h1 className="text-lg font-medium text-white">Orbita</h1>
             <p className="text-sm text-gray-500 mt-0.5">
               Daily tracking of the Hermes Agent ecosystem and competitors
             </p>
           </div>
-          <div className="flex items-center gap-2 text-sm text-green-600 bg-green-50 px-3 py-1.5 rounded-full">
-            <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
+          <div className="flex items-center gap-2 text-sm text-green-400 bg-green-400/10 px-3 py-1.5 rounded-full">
+            <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
             Updated daily
           </div>
         </div>
