@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-28T02:19:58.237266",
+  "date": "2026-06-28T09:55:33.652987",
   "github": [
     {
       "repo": "NousResearch/hermes-agent",
-      "stars": 204384,
+      "stars": 204578,
       "stars_delta": 0,
-      "forks": 36786,
+      "forks": 36850,
       "forks_delta": 0,
       "issues_delta": 0,
       "new_commits": 0,
-      "latest_commit_msg": "fix(agent): throttle cross-turn fallback-switch replay storm (#24996) (#53909)",
+      "latest_commit_msg": "docs: fix incorrect web search instructions",
       "new_releases": [
         "v2026.6.19",
         "v2026.6.5",
@@ -20,7 +20,7 @@
     },
     {
       "repo": "openai/openai-python",
-      "stars": 31099,
+      "stars": 31100,
       "stars_delta": 0,
       "forks": 4858,
       "forks_delta": 0,
@@ -39,7 +39,7 @@
       "repo": "anthropics/anthropic-sdk-python",
       "stars": 3687,
       "stars_delta": 0,
-      "forks": 752,
+      "forks": 751,
       "forks_delta": 0,
       "issues_delta": 0,
       "new_commits": 0,
@@ -54,7 +54,7 @@
     },
     {
       "repo": "microsoft/autogen",
-      "stars": 59300,
+      "stars": 59306,
       "stars_delta": 0,
       "forks": 8939,
       "forks_delta": 0,
@@ -71,9 +71,9 @@
     },
     {
       "repo": "langchain-ai/langchain",
-      "stars": 140349,
+      "stars": 140368,
       "stars_delta": 0,
-      "forks": 23297,
+      "forks": 23300,
       "forks_delta": 0,
       "issues_delta": 0,
       "new_commits": 0,
